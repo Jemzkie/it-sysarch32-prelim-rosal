@@ -1,0 +1,136 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #645AA4;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #313167;
+}
+
+header > label {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 150px;
+  color: #98C8DE;
+  z-index: 1;
+}
+
+.img-header {
+  position: absolute;
+  margin-left: 100px;
+  width: 50px;
+}
+
+
+.button-header {
+  padding: 35px 0px 0px 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 150px;
+  height: 45px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-size: large;
+  background-color: #98C8DE;
+}
+
+.button:hover {
+  background-color: #B986D7;
+  transition: 0.5s;
+}
+
+.card {
+  padding: 30px 0 0 0;
+  height: 300px;
+  width: 1000px;
+  margin-top: 20px;
+  background-color: #313167;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.img-name-poke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-name-poke > img {
+  width: 150px;
+}
+
+.layer {
+  padding: 35px 50px 50px 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 55px;
+}
+
+.text-poke {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.text-poke,
+.img-name-poke > label {
+  padding: 10px 0 0 0;
+  font-family:sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  width: 1100px; /* Adjust width as needed */
+  background-color: #313167;
+  border-radius: 25px;
+}
+
+.pokemon {
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 5px; /* Add margin */
+  font-family: sans-serif;
+  font-size: large;
+  background-color: #98C8DE;
+}
+
+.pagination-button:hover {
+  background-color: #B986D7;
+  transition: 0.5s;
+}
